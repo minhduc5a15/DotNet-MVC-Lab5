@@ -14,8 +14,8 @@ obj/
 .DS_Store
 Thumbs.db
 
-# --- SQLite Database (QUAN TRỌNG) ---
-# Chúng ta dùng SQLite nên cần chặn file này lại, không push data lên git
+# --- SQLite Database ---
+
 *.db
 *.db-shm
 *.db-wal
