@@ -1,0 +1,28 @@
+# --- Build & Runtime ---
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.userprefs
+
+# --- JetBrains / Rider ---
+.idea/
+*.sln.iml
+
+# --- OS specific ---
+.DS_Store
+Thumbs.db
+
+# --- SQLite Database (QUAN TRỌNG) ---
+# Chúng ta dùng SQLite nên cần chặn file này lại, không push data lên git
+*.db
+*.db-shm
+*.db-wal
+
+# --- Logs ---
+*.log
+
+# --- Environment Variables (Security) ---
+.env
+appsettings.Development.json
